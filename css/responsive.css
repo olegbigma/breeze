@@ -1,0 +1,50 @@
+@media (max-width: 991px){
+    .right ,.phone ,.create{
+        text-align: center;
+        margin: 10px auto;
+        display: block;
+    }
+
+    .navbar-form{
+        display: none;
+    }
+
+    .cards{
+        margin: 20px auto;
+    }
+
+    .navbar-collapse{
+        border: none;
+    }
+}
+@media (max-width: 767px){
+    .container-fluid{
+        padding: 10px 5px 20px ;
+    }
+
+    .other-info .block{
+        min-height: 220px;
+    }
+
+    footer{
+        padding: 30px 0;
+    }
+
+    footer .col-xs-6{
+        text-align: center;
+    }
+
+    footer .contact-us>ul>li{
+        line-height: 1.8em;
+    }
+
+    .slider .carousel-caption{
+        left: auto;
+    }
+
+    .slider .carousel-caption h1{
+        font-size: 18px;
+        padding: 0;
+        margin: 0;
+    }
+}
