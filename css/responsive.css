@@ -16,10 +16,27 @@
     .navbar-collapse{
         border: none;
     }
+    .productslider .cards{
+        margin: 0 auto;
+        display: block !important;
+    }
 }
 @media (max-width: 767px){
     .container-fluid{
         padding: 10px 5px 20px ;
+    }
+
+    .navbar .navbar-collapse .navbar-nav li:hover{
+        background: #ccc;
+        cursor: pointer;
+    }
+
+    .navbar-nav>li>a>span{
+        display: none;
+    }
+
+    .mainMenu .nav-pills>li{
+        padding: 16px;
     }
 
     .other-info .block{
@@ -46,5 +63,19 @@
         font-size: 18px;
         padding: 0;
         margin: 0;
+    }
+}
+@media (max-width: 550px){
+    .slider .carousel-caption{
+        display: none;
+    }
+    .slider .carousel-indicators{
+        display: none;
+    }
+    .bestsellers .title h3{
+        font-size: 21px;
+    }
+    footer .container{
+        padding: 0 10px;
     }
 }

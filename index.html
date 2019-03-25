@@ -8,8 +8,8 @@
     <!-- css -->
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="css/font-awesome.min.css">
-    <link rel="stylesheet" href="css/slick-theme.css">
     <link rel="stylesheet" href="css/slick.css">
+    <link rel="stylesheet" href="css/slick-theme.css">
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/responsive.css">
     <!-- fonts -->
@@ -188,12 +188,9 @@
     <section class="bestsellers">
         <div class="container">
             <div class="title">
-                 <h3>Best Sellers</h3>
-                 <a id="turn-right"><span class="glyphicon glyphicon-chevron-right"></span></a>
-                 <a id="turnleft"><span class="glyphicon glyphicon-chevron-left"></span></a>     
+                 <h3>Best Sellers</h3>   
             </div>
-            <div class="productslider row slider" id="productslider">
-                <div class="col-md-3 col-sm-6">
+            <div class="productslider">
                     <div class="cards " id="card">
                         <div class="imgcontainer">
                              <img src="img/bestsellers1.jpg" alt="">
@@ -209,8 +206,6 @@
                            </tr>
                         </table>
                     </div>
-                </div>
-                <div class="col-md-3 col-sm-6">
                     <div class="cards" id="card">
                         <div class="imgcontainer">
                             <img src="img/bestsellers2.jpg" alt="">
@@ -224,8 +219,6 @@
                             </tr>
                         </table>
                     </div>
-                </div>
-                <div class="col-md-3 col-sm-6">
                     <div class="cards" id="card">
                         <div class="imgcontainer">
                             <img src="img/bestsellers3.jpg" alt="">
@@ -241,8 +234,6 @@
                             </tr>
                         </table>
                     </div>
-                </div>
-                <div class="col-md-3 col-sm-6">
                     <div class="cards" id="card">
                         <div class="imgcontainer">
                             <img src="img/bestsellers4.jpg" alt="">
@@ -257,19 +248,28 @@
                             </tr>
                         </table>
                     </div>
-                </div>    
+                    <div class="cards" id="card">
+                        <div class="imgcontainer">
+                            <img src="img/bestsellers2.jpg" alt="">
+                        </div>
+                        <p class="description">Febreze Noticeables 2 Refills</p>
+                        <table class="cardmenu">
+                            <tr>
+                                <td><img src="img/transfer.png" alt=""></td>
+                                <td><img src="img/heart.png" alt=""></td>
+                                <td><img src="img/cart.png" alt=""></td>
+                            </tr>
+                        </table>
+                    </div>
             </div> 
         </div>
     </section>
     <section class="bestsellers FeaturedProducts">
         <div class="container">
             <div class="title">
-                <h3>Featured Products</h3>
-                <a id="turn-right"><span class="glyphicon glyphicon-chevron-right"></span></a>
-                <a id="turnleft"><span class="glyphicon glyphicon-chevron-left"></span></a>  
+                <h3>Featured Products</h3> 
             </div>
             <div class="productslider" id="productslider">
-                <div class="col-md-3 col-sm-6">
                     <div class="cards" id="card">
                         <div class="imgcontainer">
                             <img src="img/featured1.jpg" alt="">
@@ -285,8 +285,6 @@
                             </tr>
                         </table>
                     </div>
-                </div>
-                <div class="col-md-3 col-sm-6">
                     <div class="cards" id="card">
                         <div class="imgcontainer">
                             <img src="img/featured2.jpg" alt="">
@@ -301,8 +299,6 @@
                             </tr>
                         </table>
                     </div>
-                </div>
-                <div class="col-md-3 col-sm-6">
                     <div class="cards" id="card">
                         <div class="imgcontainer">
                             <img src="img/featured3.jpg" alt="">
@@ -318,8 +314,6 @@
                             </tr>
                         </table>
                     </div>
-                </div>
-                <div class="col-md-3 col-sm-6">
                     <div class="cards" id="card">
                         <div class="imgcontainer">
                             <img src="img/featured4.jpg" alt="">
@@ -334,7 +328,21 @@
                             </tr>
                         </table>
                     </div>
-                </div>
+                    <div class="cards" id="card">
+                        <div class="imgcontainer">
+                            <img src="img/featured3.jpg" alt="">
+                        </div>
+                        <img class="sale" src="img/sale.png" alt="">
+                        <p class="description">Home Luminary Refills Anjou Pear Spice</p>
+                         <table class="cardmenu">
+                            <tr>
+                                <td class="price">$143.00<br><span class="oldprice">$250.00</span></td>
+                                <td><img src="img/transfer.png" alt=""></td>
+                                <td><img src="img/heart.png" alt=""></td>
+                                <td><img src="img/cart.png" alt=""></td>
+                            </tr>
+                        </table>
+                    </div>
             </div> 
         </div>
     </section>
@@ -433,9 +441,9 @@
             </div>
         </section>
     <!-- js -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="http://code.jquery.com/jquery-2.2.4.min.js"integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="crossorigin="anonymous"></script>
     <script src="js/bootstrap.js"></script>
-    <script type="text/javascript" src="js/slick.js"></script>
+    <script src="js/slick.js"></script>
     <script src="js/script.js"></script>
 </body>
 </html>
